@@ -1,0 +1,22 @@
+fast lib refers to afast library
+it is design to perform task quickly and efficiently
+library (gpdk 045wc):-it specifies the library which is generic physical design kit and using 45nm TSMC version
+Attributes lists:-To design a full adder circut,we are giving the list of attributes they are time unit:1ns,voltage unit:1v,current unit:1ma,pulling resistance:1k,leakage power unit:1nw,capacitive load unit(1of),
+default power supply using is 1.32v
+leakage power-unwnated subthreshold current in the transistor channel when the transistor channel when the transistor is turn off
+default its operating condition is of fast
+designing the adder circuit
+area consider is 0 
+leakage power is 1.09891
+pins are of A,B,CI,CO
+A and B are input pins
+CI And CO are of sum and carry
+The function for=((A B)+(B CI)+(CI A))
+the function is the carry function
+Related pin will be A for this
+it also provides rise fall and direction
+1nw is given to maintain the lifespan of the battery
+delay templates are given as like index1 and index2
+((A^B)^CI)
+the above function refers to sum function
+it also  operates each function using basic function 
